@@ -1,0 +1,2 @@
+# hackintosh
+clover setup etc
