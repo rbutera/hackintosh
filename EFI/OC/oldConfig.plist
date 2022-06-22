@@ -366,7 +366,7 @@
                     <key>Comment</key>
                     <string>V1.3.15 | Fake PCI ID</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/FakePCIID</string>
                     <key>MaxKernel</key>
@@ -384,7 +384,7 @@
                     <key>Comment</key>
                     <string>V1.3.15</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -402,7 +402,7 @@
                     <key>Comment</key>
                     <string>V1.3.15</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
