@@ -1,3 +1,6 @@
 [submodule "ProperTree"]
 	path = ProperTree
 	url = git@github.com:corpnewt/ProperTree.git
+[submodule "mountefi"]
+	path = mountefi
+	url = https://github.com/corpnewt/mountefi
