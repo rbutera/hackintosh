@@ -24,10 +24,6 @@
 		<data>
 		yB8n6JxfaQ/P1gp8dUHKCjbsMJ8Eb+v/00WA4FVzJC4=
 		</data>
-		<key>Config.plist</key>
-		<data>
-		/o3mdYC0vyAb96r1Eag3n74gF4hSAU4js00vxtOFelc=
-		</data>
 		<key>Drivers\HfsPlus.efi</key>
 		<data>
 		YZNfOa7Vd9ad+WYoL5P9KIamEcJm33rI8QVYttLXHXg=
@@ -2174,23 +2170,31 @@
 		</data>
 		<key>Tools\CleanNvram.efi</key>
 		<data>
-		f9ta7UWJq/YTyULeGRIIYRDI1VUz58DjRgl3gG9ISac=
+		KBOO8MeWcjH0t0CmPOULdjrzyUbdw6vKZ8uRzoXFgPY=
 		</data>
 		<key>Tools\ControlMsrE2.efi</key>
 		<data>
 		pmapE35iRLZ7EmFF9H7i/mH+8dghke4zTyURAPM2GPg=
 		</data>
+		<key>Tools\OpenControl.efi</key>
+		<data>
+		h4RGP5FpUTVu4r7O25b/aWutr7WGMDovTP02B1XdvOE=
+		</data>
 		<key>Tools\OpenShell.efi</key>
 		<data>
-		8dQq/TuaPSiD4JXMP5g/H5TVMMRa4lGgW+5o8GBDPkM=
+		NTH/UOrxuxDFrt5EP/oJijuki01tPZPRX0GYUTZzctg=
 		</data>
 		<key>Tools\ResetSystem.efi</key>
 		<data>
-		s4a2vyqY5jb66w3OcTYYwv89LRs520xIqijICdAtGgE=
+		vWBjkRNiE8XYvCwq773C8vt1CgfVpSf2MHaexbXdPdc=
 		</data>
 		<key>Tools\VerifyMsrE2.efi</key>
 		<data>
 		NV2y4KjqJyHouqZCChokB+Rc5VwpVFlEUAo02WnZ86Y=
+		</data>
+		<key>config.plist</key>
+		<data>
+		/o3mdYC0vyAb96r1Eag3n74gF4hSAU4js00vxtOFelc=
 		</data>
 	</dict>
 	<key>Version</key>
