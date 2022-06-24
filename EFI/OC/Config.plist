@@ -200,7 +200,7 @@
                 <key>ProtectMemoryRegions</key>
                 <false/>
                 <key>ProtectSecureBoot</key>
-                <false/>
+                <true/>
                 <key>ProtectUefiServices</key>
                 <true/>
                 <key>ProvideCustomSlide</key>
@@ -428,6 +428,8 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string></string>
+                    <key>Strategy</key>
+                    <string>Disable</string>
                 </dict>
             </array>
             <key>Emulate</key>
@@ -785,6 +787,8 @@
                 <false/>
                 <key>Target</key>
                 <integer>3</integer>
+                <key>LogModules</key>
+                <string>*</string>
             </dict>
             <key>Entries</key>
             <array/>
@@ -819,7 +823,7 @@
                 <key>SecureBootModel</key>
                 <string>Default</string>
                 <key>Vault</key>
-                <string>Optional</string>
+                <string>Basic</string>
             </dict>
             <key>Tools</key>
             <array>
