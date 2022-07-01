@@ -32,6 +32,10 @@
 		<data>
 		5irCAADG/5dBpfonUb6YYVraGRBY/xdI9hSgpelu/vg=
 		</data>
+		<key>Drivers\OpenLinuxBoot.efi</key>
+		<data>
+		DLVjjxf9t3kRMbBtOGgypU3cD1uGeyIjAPg3yG17fgk=
+		</data>
 		<key>Drivers\OpenRuntime.efi</key>
 		<data>
 		MFoQ3C4+kY1vkSuSSHZrQdYdCVMkGVaDc1nUyHcvFx0=
@@ -39,6 +43,10 @@
 		<key>Drivers\ResetNvramEntry.efi</key>
 		<data>
 		cNdkIHkyCsfpL2SEjis8ZplWxHsbYzDu8poyTsxbAJg=
+		</data>
+		<key>Drivers\ext4_x64.efi</key>
+		<data>
+		E7RlqS78J7i4/jzewAL7d3iXZ4T8hksPr+wVonMR0BY=
 		</data>
 		<key>Kexts\AppleALC.kext\Contents\Info.plist</key>
 		<data>
@@ -2194,7 +2202,7 @@
 		</data>
 		<key>config.plist</key>
 		<data>
-		jp347tAWJeo6ddue1suV/THLzldlw8yxXqD7A4PtB1w=
+		/gDhY01gvVS7VcJ708S9KlJjLme//wa4uKmPJA/shZU=
 		</data>
 	</dict>
 	<key>Version</key>
