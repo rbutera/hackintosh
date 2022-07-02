@@ -135,17 +135,18 @@ def sign(
     import_keys: bool = False,
 ):
     click.echo(click.style("auto_sbctl starting. options selected:", bold=True))
-    messages = []
+    messages = [""]
     if import_keys:
-        messages = messages.append(f"import keys from {cwd}/secureboot/keys")
+        messages.append(f"import keys from {cwd}/secureboot/keys")
 
     if linux:
-        messages = messages.append("sign linux boot EFI")
+        messages.append("sign linux boot EFI")
     if local:
         target_dir = target if target is not None else cwd
-        messages = messages.append(f"sign files in {target_dir}")
+        messages.append(f"sign files in {target_dir}")
+
     if export:
-        messages = messages.append(f"export /usr/share/secureboot to {cwd}/secureboot")
+        messages.append(f"export /usr/share/secureboot to {cwd}/secureboot")
 
     click.confirm("Do you want to continue?", abort=True)
 
