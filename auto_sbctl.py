@@ -119,7 +119,6 @@ def do_export():
     "-E",
     "--export/--no-export",
     default=False,
-    flag=True,
     help="If set to true, copies /usr/share/secureboot to current working directory for backup purposes",
 )
 @click.option(
