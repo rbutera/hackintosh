@@ -1,0 +1,27 @@
+{
+    "/boot/efi/EFI/boot/bootx64.efi": {
+        "file": "/boot/efi/EFI/boot/bootx64.efi",
+        "output_file": "/boot/efi/EFI/boot/bootx64.efi",
+        "checksum": "ec244f1918be582c35c76f68fc5f45ca991b1189bd03742141d014d05041f8b9"
+    },
+    "/boot/efi/EFI/endeavouros-2111/grubx64.efi": {
+        "file": "/boot/efi/EFI/endeavouros-2111/grubx64.efi",
+        "output_file": "/boot/efi/EFI/endeavouros-2111/grubx64.efi",
+        "checksum": "80086b2c104207a88a1f3d2a98b5dc1d219be6f03e1d15c4d8e4aac10fc6492d"
+    },
+    "/boot/efi/EFI/endeavouros-7875/grubx64.efi": {
+        "file": "/boot/efi/EFI/endeavouros-7875/grubx64.efi",
+        "output_file": "/boot/efi/EFI/endeavouros-7875/grubx64.efi",
+        "checksum": "f7f1337590b851f7f355767019c611ec5d8414e8534edfab8e5a956de1b279fa"
+    },
+    "/boot/efi/EFI/endeavouros-9103/grubx64.efi": {
+        "file": "/boot/efi/EFI/endeavouros-9103/grubx64.efi",
+        "output_file": "/boot/efi/EFI/endeavouros-9103/grubx64.efi",
+        "checksum": "ae6a42e32bf6914cff2a96a2a4caa6fdfeb3d9652362999cdaa19a665b4e37e1"
+    },
+    "/home/rai/hackintosh/EFI/OC/OpenCore.efi": {
+        "file": "/home/rai/hackintosh/EFI/OC/OpenCore.efi",
+        "output_file": "/home/rai/hackintosh/EFI/OC/OpenCore.efi",
+        "checksum": "5967e9ebea44febd5c8d634c797eddab21555452440d234bb16dcb748cef0fe6"
+    }
+}
