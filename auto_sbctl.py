@@ -112,7 +112,6 @@ def do_export():
 @click.option(
     "-T",
     "--target",
-    type="string",
     help="Target directory to recursively search for EFI files to sign",
 )
 @click.option(
@@ -145,8 +144,12 @@ def sign(
     if local:
         target_dir = target if target is not None else cwd
         messages = messages.append(f"sign files in {target_dir}")
-    if export_keys:
+    if export:
         messages = messages.append(f"export /usr/share/secureboot to {cwd}/secureboot")
+
+    click.confirm("Do you want to continue?", abort=True)
+
+    log.verbose("Continuing...")
 
     num_signed = 0
     if import_keys:
@@ -165,6 +168,8 @@ def sign(
 
     if export:
         do_export()
+
+    log.success("Finished!")
 
 
 if __name__ == "__main__":
