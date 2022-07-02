@@ -106,7 +106,9 @@ def do_export():
 
 @click.command()
 @click.option("--local/--skip-local", default=True, help="Sign local EFI directory")
-@click.option("-L", "--linux", default=True, help="(re)sign local linux efi files")
+@click.option(
+    "-L", "--linux/--skip-linux", default=True, help="(re)sign local linux efi files"
+)
 @click.option(
     "-T",
     "--target",
@@ -115,14 +117,14 @@ def do_export():
 )
 @click.option(
     "-E",
-    "--export",
+    "--export/--no-export",
     default=False,
     flag=True,
     help="If set to true, copies /usr/share/secureboot to current working directory for backup purposes",
 )
 @click.option(
     "-I",
-    "--import",
+    "--import/--no-import",
     "import_keys",
     default=False,
     help="Import data from local secureboot copy to /usr/share/secureboot prior to signing",
