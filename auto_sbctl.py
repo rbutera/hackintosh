@@ -134,7 +134,8 @@ def sign(
     export: bool = False,
     import_keys: bool = False,
 ):
-    click.echo(click.style("auto_sbctl starting. options selected:", bold=True))
+    click.echo(click.style("auto_sbctl starting", bold=True))
+    log.info("options selected:")
     messages = [""]
     if import_keys:
         messages.append(f"import keys from {cwd}/secureboot/keys")
@@ -147,6 +148,9 @@ def sign(
 
     if export:
         messages.append(f"export /usr/share/secureboot to {cwd}/secureboot")
+
+    message = "\n".join(messages)
+    log.log(message)
 
     click.confirm("Do you want to continue?", abort=True)
 
