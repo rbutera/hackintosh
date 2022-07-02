@@ -127,12 +127,16 @@ def do_export():
     default=False,
     help="Import data from local secureboot copy to /usr/share/secureboot prior to signing",
 )
+@click.option(
+    "-Y", "--force", default=False, help="Don't ask for confirmation before proceeding"
+)
 def sign(
     local: bool = True,
     linux: bool = True,
     target: str = None,
     export: bool = False,
     import_keys: bool = False,
+    force: bool = False,
 ):
     click.echo(click.style("auto_sbctl starting", bold=True))
     log.info("options selected:")
@@ -152,7 +156,8 @@ def sign(
     message = "\n".join(messages)
     log.log(message)
 
-    click.confirm("Do you want to continue?", abort=True)
+    if not force:
+        click.confirm("Do you want to continue?", abort=True)
 
     log.verbose("Continuing...")
 
